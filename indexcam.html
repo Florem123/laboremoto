@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html >
+<head>
+  <title>Laboratorio de Ondas</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="nuevo.js"></script>
+</head>
+
+
+<body>
+<header id="main-header">
+  Laboratorio Remoto de Ondas UNAJ-UBA
+</header>
+
+<div class="content">
+  <h2>Laboratorio Remoto</h2>
+  <div  
+  style="  background: url('img/cargando.gif')" id="embed">
+   <img class="embed-responsive-item" src="https://laboremoto.df.uba.ar/live"  id='frame'>
+ 
+  </div>
+</div>
+ 
+<div class="container2">
+  <div class="row  ">
+
+
+
+    <div class="col-sm-4 " id ="columnaScreen">
+      <h3>Screen de la transmisión</h3>
+        <div id="canvas-foto">
+      	</div>
+
+	 <!--<a href="picture.jpg" download="captura.jpg">
+      <button type="button" class="btn btn-outline-primary" id="descargafoto">Descargar foto</button>
+    </a>-->
+    </div>
+
+
+    <div class="col-sm-4" id="columnaConfig">
+      <h3>Configuración </h3>
+      <p>Frecuencia-Base-Amplitud</p>
+
+        
+
+        <div>
+        <!--<input type="number" id="inputFrecuencia" class="form-control" placeholder="Frecuencia" label="Frecuencia" aria-describedby="basic-addon2"
+        min="0" max="100">-->
+        <select name="inputFrecuencia">
+          <option value="100">100</option>
+          <option value="78">78 (Resonancia)</option>
+          <option value="156">156 (Resonancia)</option>
+        </select>
+        </div>
+
+        <div>
+        <!--<button type="button" class="btn btn-outline-primary" id="botonFrecuencia">Cambiar Frecuencia</button> -->
+        </div> <br>
+
+        <div>
+         <input type="number" id="inputFase" class="form-control" placeholder="Fase" label="Fase" aria-describedby="basic-addon2"
+        min="0" max="100">
+        </div>
+
+        <div>
+        <button type="button" class="btn btn-outline-primary" id="botonFase">Cambiar Fase</button> 
+        </div><br>
+
+        <div>
+        <input type="number" id="inputAmplitud" class="form-control" placeholder="Amplitud" label="Amplitud" aria-describedby="basic-addon2"
+        min="0" max="100">
+        </div>
+
+        <div>
+        <button type="button" class="btn btn-outline-primary" id="botonAmplitud">Cambiar Amplitud</button>
+        </div> <br>
+
+      
+
+    </div>
+
+
+    <div class="col-sm-4 mh-100">
+      <h3>Historial de fotos</h3>        
+      <div class="cap" id="historialCapturas" style="overflow-y:scroll " ></div>
+    </div>
+  </div>
+
+
+</div>
+
+</body>
+</html>
