@@ -1,0 +1,65 @@
+transmision{
+	  background: url('https://www.google.com/images/srpr/logo3w.png');
+}
+body{
+	background-color: #e6f2ff; 
+}
+
+.logo1{
+  width: 50px; 
+  height: 50px;
+  float: left;
+  margin-left: 10px;
+}
+.logo2{
+  width: 186px;
+  height: 50px;
+  float: right;
+  margin-right: 10px;
+}
+
+h5{
+	font-family: Arial,Helvetica,sans-serif;
+	color: #001f4d;
+	text-align: center;
+}
+h3{
+	font-family: "Tahoma", "Geneva", sans-serif;
+	color: #001f4d;
+}
+#columnaConfig{
+	background-color: #e6f2ff;
+}
+#main-header{
+	background-color: #ffffff;
+	font-family: "Tahoma", "Geneva", sans-serif;
+	font-size: 30px;
+	color: #2471A3;
+	text-align: center;
+	border-radius: 5px;
+	width: 100%; 
+	height: 60px;
+}
+.container2{
+	width: 100%;
+	padding: 3px;
+}
+.cap{
+	width: 100%;
+	padding: 3px;
+}
+#frame{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%; 
+	height: 500px;
+}
+
+.row{
+	width: 95%;
+	padding: 3px;
+}
+.content{
+	background-color:#2471A3;
+}
